@@ -96,6 +96,7 @@ span {
     display: block;
     text-align: right;
     line-height: 45px;
+    margin-right: 20px;
 }
 
 .footer {

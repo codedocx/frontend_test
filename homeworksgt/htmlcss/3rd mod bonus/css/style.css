@@ -1,0 +1,36 @@
+body {
+
+    background-color: black;
+}
+
+.container {
+    background-image: url(../img/backgr.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    width: 900px;
+}
+
+.header {
+    height: : 200px;
+    width: 900px;
+
+}
+.logo {
+    margin-right: 450px;
+    margin-top: 60px;
+}
+
+
+.content {
+    height: 600px;
+    width: 900px;
+}
+
+.content img {
+    margin-bottom: 50px;
+}
+
+.footer {
+    color: white;
+}
