@@ -52,7 +52,12 @@ li {
     width: 100%;
     text-align: center;
     line-height: 45px;
+    border-bottom: none;
 }
+.sideBar li:last-child{
+    border-bottom:  1px solid rgb(194, 209, 196);
+}
+
 .sideBar {
     width: 250px;
     margin: 0px 20px 0px 0px;
@@ -63,6 +68,7 @@ li {
 .sideBar li:hover {
     background-color: rgb(194, 209, 196);
 }
+
 
 img {
     border: 1px solid rgb(194, 209, 196);
