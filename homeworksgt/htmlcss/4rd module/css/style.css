@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(../images/background.jpg)
+}
+
+.container {
+    width: 1000px;
+    background: white;
+    margin: 0 auto;
+
+    -webkit-box-shadow: -2px 6px 31px 0px rgba(0,0,0,0.75);
+    moz-box-shadow: -2px 6px 31px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 6px 31px 0px rgba(0,0,0,0.75);
+    height: 800px;
+}
+.logo {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 164px;
+
+}
+
+.contacts {
+    float: right;
+    margin: 15px;
+    text-align: right;
+}
+
+.countries {
+    float: right;
+
+    padding-right: 15px;
+    clear: right;
+
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.menu {
+    background-color: #333333;
+
+
+}
+.photo {
+    height: 237px;
+}
+.menu li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    line-height: 30px;
+    width: 135px;
+    text-align: center;
+}
+.menu{
+    height: 30px;
+}
