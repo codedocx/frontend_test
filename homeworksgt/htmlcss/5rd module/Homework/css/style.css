@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'helvetica_neueregular';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'), url('../fonts/helveticaneue-thin-webfont.woff') format('woff'), url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    font-family: 'helvetica_neueregular';
+}
+
+.header {
+    background-color: #085292;
+    height: 30px;
+    -webkit-box-shadow: -4px 3px 5px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 3px 5px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: -4px 3px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+.header li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #4eabda;
+    line-height: 30px;
+}
+
+ul {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.header li:hover {
+    background: #4eabda;
+}
+
+.header a:hover {
+    color: white;
+}
+
+.mihnas a {
+    color: white;
+}
+
+.mihnas {
+    border-left: 1px solid #4eabda;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.form {
+    width: 500px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 5% auto;
+}
+
+.headerForm {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid white;
+    margin-top: 5px;
+}
+.bold {
+    font-weight: bold;
+}
+.fbutton{
+    text-align: center;
+}
+.fbutton button {
+    margin: 10px auto 10px auto;
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background: #085292;
+    color: white;
+    font-size: 15px;
+}
+
+#logof {
+    font-size: 20px;
+    border-right: 1px solid rgba(0, 47, 117, 0.5);
+    padding-right: 15px;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.line {
+    text-align: center;
+}
+
+.line1 {
+    width: 25%;
+    float: left;
+    margin-left: 111px;
+    margin-top: 14px;
+}
+.line1 hr {
+    border: 0;
+    height: 0;
+    border-top: 2px solid rgb(39, 38, 40);
+}
+.line2 {
+    width: 24.5%;
+    float: right;
+    margin-right: 111px;
+    margin-top: 14px;
+}
+.line2 hr {
+    border: 0;
+    height: 0;
+    border-top: 2px solid rgb(39, 38, 40);
+}
+
+.text {
+    position: absolute;
+    color: gray;
+    font-weight: bold;
+    top: 10px;
+    left: 240px;
+}
+
+.cont {
+    position: relative;
+
+}
+.clearFix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.buttons {
+    text-align: center;
+    margin: 20px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+
+    margin: 5px;
+    background: black;
+    border:none;
+    color: rgb(240, 240, 244);
+    font-size: 12px;
+    height: 30px;
+    width: 250px;
+    padding-left: 15px;
+    border-bottom: 1px solid gray;
+}
+input::-webkit-input-placeholder { color: rgb(240, 240, 244);
+padding-left: : 10px;
+}
+
+input:focus {
+    background: #1b5288;
+    border: none;
+}
+
+.checkbox {
+    color: lightgray;
+    padding: 10px;
+    font-size: 13px;
+}
+
+
+.submit input {
+    background: #4eabda;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    color: lightgray;
+}
