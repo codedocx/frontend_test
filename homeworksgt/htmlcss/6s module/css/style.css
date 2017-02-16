@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 910px;
+    margin: 0 auto;
+    font-family: arial, tahoma, sans-serif;
+    height: 900px;
+}
+header {
+    float: left;
+    height: 41px;
+    width: 100%;
+
+}
+
+.phoneimage {
+    margin-top: 10px;
+    margin-left: 5px;
+    display: block;
+    float: left;
+}
+
+.phonenumber {
+    letter-spacing: 1px;
+    margin-bottom: 142px;
+    display: block;
+    float: left;
+    padding: 5px;
+    margin-top: 6px;
+}
+
+.formreg {
+    float: left;
+    margin-top: 5px;
+    margin-left: 19px;
+    width: 500px;
+    height: 25px;
+
+    border-radius: 4px;
+    background: linear-gradient(to bottom, rgba(32,104,136,1) 0%,rgba(28,96,128,1) 16%,rgba(18,66,102,1) 56%,rgba(12,50,86,1) 100%);
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+input[type="text"] {
+    width: 113px;
+    margin-top: 4px;
+
+    border: none;
+    border-radius: 1px;
+}
+
+.login {
+    color: white;
+    font-size: 11px;
+    margin-left: 4px;
+}
+
+.lostPassword {
+
+    font-size: 11px;
+    margin-left: 25px;
+    color: darkgray;
+}
+
+.fa-user-o {
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-left: 8px;
+}
+
+#password {
+    margin-left: 4px;
+}
+
+.mailHome {
+    border: 1 px solid gray;\
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}

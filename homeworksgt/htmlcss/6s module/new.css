@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+
+box-sizing: border-box;
+}}
+h1 {
+    background-color: yellow;
+    border: 1px solid pink;
+}
+
+.right {
+
+    float: right;
+    width: 20%;
+    padding: 0 10px 0 20px;
+}
+
+
+
+.left {
+ width: 20%;
+ float: left;
+ background: lightyellow;
+ padding: 0 20px 0 10px;
+}
+
+.text {
+float: left;
+width: 60%;
+padding: 0 20px 0 20px;
+border-left: dashed 1px rgb(153,153,153);
+border-right: dashed 1px rgb(153,153,153);
+}
+
+.left1 {
+    clear: both;
+}
+
+li {
+    display: inline-block;
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+    width: 50px;
+}
+ul {
+
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+nav {
+    background: black;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer {
+    clear: both;
+    max-width: 1200px;
+}
